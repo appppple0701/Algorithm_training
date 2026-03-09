@@ -1,3 +1,16 @@
+'''
+合併排序法 (Merge Sort) : 使用分治法 (Divide and Conquer)。
+先將陣列不斷拆分為左右兩半，直到每個子陣列只剩一個元素，
+再將已排序的左右子陣列透過 merge 操作合併成一個新的排序陣列。
+
+merge_sort() 負責將問題拆分為更小的子問題，
+merge() 負責將兩個已排序的子陣列合併為一個排序結果。
+
+worst case O(n log n)
+average case O(n log n)
+best case O(n log n)
+'''
+
 #sort(Data) = merge(sort(Left), sort(Right))
 
 #負責拆分
